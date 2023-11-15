@@ -2,7 +2,56 @@
     box-sizing: border-box;
 }
 
-html, body {
+ body {
     margin: 0;
-    padding: 0;
+    color: black;
+    font-size: 22px;
+    text-align: center;
 }
+
+/**                       *****                 HEADER           ******                       **/
+
+header {
+    background-color: hsl(177, 90%, 50%);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+  nav .navbar {
+
+ }
+
+  nav li {
+      display: inline-block;
+      
+  }
+
+
+
+/**********/
+
+
+ .container {
+     width: 100%;
+     height: auto;
+     display: flex;
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+ }
+
+   img {
+     width: 200px;
+     height: 200px;
+     padding: 10px;
+     object-fit: contain;
+
+ }
+
+ .container h3, p {
+     width: 75%;
+ }
