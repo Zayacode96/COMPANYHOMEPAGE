@@ -142,25 +142,8 @@ section h2 {
 }
 
 
-  .services {
-     display: flex;
-     flex-wrap: wrap;
-     justify-content: space-around;
-     align-items: center;
- }
 
- .services .service {
-     display: flex;
-     align-items: center;
-     justify-content: space-between;
- }
-
-   .img-container img {
-     width: 200px;
-     height: 200px;
-     padding: 10px;
-     object-fit: contain; 
- }
+   
 
  
 
@@ -171,12 +154,55 @@ section h2 {
  
 
                                 /*              Services                    */ 
+    .services img {
+        width: 200px;
+        height: 200px;
+        padding: 10px;
+        object-fit: contain;
+                                    
+       }
 
- #services {
-    /* margin-top: 5.5rem; */
- }
+ .services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.services .service {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+                                /*                  Team                     */
+
+    .team img {
+        width: 300px;
+        height: 450px; 
+       
+    }
+
+    .team p  {
+       margin: 25`px auto;
+       width: 250px;
+    }
+
+    .team   {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .teammate {
+        margin: 0 50px;
+    }
+    
 
  /**********/
+
+
 /**                       *****                 FOOTER           ******                       **/
 
 footer h2 {
