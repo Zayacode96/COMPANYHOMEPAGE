@@ -1,4 +1,6 @@
 find 3 fonts for webpage
 create color scheme
 adjust footer whitespace
-adjust margin-bottom for h4 element in .services section 
+adjust margin-bottom for h4 element in .services section
+find background image for team section
+resize teammate photos 
