@@ -9,6 +9,7 @@
     color: black;
     font-size: 22px;
     text-align: center;
+    background-color: ;
 }
 
 main, footer {
@@ -42,6 +43,7 @@ header {
     margin-left: 2rem;
     text-align: center;
     width: 700px;
+    font-size: 1.4rem;
  }
  
 
@@ -62,6 +64,10 @@ header {
      font-weight: 900;
      font-family: 'Courier New', Courier, monospace;
      font-size: 4.5rem;
+ }
+
+ nav a {
+     color: black;
  }
 
  @media only screen and (max-width: 600px) {
@@ -86,8 +92,9 @@ header {
   .banner {  
      width: 100%;
      height: auto;
-     background-image: url("../css/resources/media/bannerphoto.WEBP");
-     background-position: center;
+     /*background-image: url("../css/resources/media/bannerphoto.WEBP");*/
+     background-image: url("../css/resources/media/nerfee-mirandilla-KRk9o85ihHU-unsplash.jpg");
+     background-position: bottom;
      background-repeat: no-repeat;
      background-size: cover;
      color: #fff;
@@ -185,15 +192,17 @@ section h2 {
 #services h4 {
     font-size: 1.2rem;
     text-transform: uppercase;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
 }
 
 
                                 /*                  Team                     */
 
     .team img {
-        width: 300px;
-        height: 450px; 
-       
+        width: 250px;
+        height: 365px; 
+        box-shadow: -5px 5px 5px black;
     }
 
     .team p  {
@@ -208,10 +217,17 @@ section h2 {
     }
     
     .teammate {
-        margin: 0 50px;
+        margin: 15px 45px;
+        color: ;
     }
     
-
+    #team {
+        background-image: url("../css/resources/media/john-unwin-ot93hAL2Tc4-unsplash.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        
+    }
  /**********/
 
 
@@ -222,6 +238,7 @@ footer h2 {
 }
 
 footer .contact { 
+    padding: 3rem;
     margin-top: -3rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
