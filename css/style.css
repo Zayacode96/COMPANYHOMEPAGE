@@ -84,9 +84,7 @@ header {
  }
 
  @media only screen and (max-width: 600px) {
-     .company-name {
-         /*margin-left: 0.7em;*/
-     }
+     
 
      .navbar {
          margin-left: 4em; 
@@ -313,7 +311,7 @@ section h2 {
     
     .teammate {
         margin: 15px 45px;
-        color: ;
+        
     }
 
     .team h3 {
