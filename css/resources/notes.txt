@@ -1,3 +1,2 @@
-find 3 fonts for webpage
-create color scheme
- 
+experiment with color scheme 
+website colors: #F6C324 , #DAAB00 , #BF9300, #A47C00 //// #00A4FF , #00BCFF , #00D5FF
